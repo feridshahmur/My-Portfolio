@@ -1,0 +1,23 @@
+header {
+  background-color: rgb(255, 237, 214);
+}
+header .header {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .logo {
+  width: 150px;
+}
+header .header ul {
+  display: flex;
+  gap: 5rem;
+  margin-right: 3rem;
+}
+header .header ul a {
+  color: #ffaaaa;
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0.5rem;
+}/*# sourceMappingURL=index.module.css.map */

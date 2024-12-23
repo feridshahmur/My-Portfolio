@@ -1,0 +1,22 @@
+.homePage {
+  color: black;
+
+  .home-content {
+      .row {
+          .name {
+              background-color: #000 !important;
+              color: white  !important;
+          }
+
+          .logo {
+              width: 200px;
+              height: 200px;
+              border-radius: 50%;
+          }
+
+          .surname {
+              background-color: #000;
+              color: white;
+      }
+  }
+}}

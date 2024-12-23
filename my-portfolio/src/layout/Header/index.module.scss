@@ -1,0 +1,33 @@
+header{
+    
+    
+    background-color: rgb(255, 237, 214);
+    
+        .header{
+            height:150px ;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .logo{
+                width: 150px;
+                
+            }
+            ul {
+                display: flex;
+                gap: 5rem;
+                margin-right: 3rem;
+                a{
+                    color: #faaf;
+                    font-weight: bold;
+                    text-decoration: none;
+                    text-shadow: 0.5rem;
+                }
+            }
+        }
+    
+    
+        
+        
+        
+    
+}

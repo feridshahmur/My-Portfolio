@@ -1,22 +1,39 @@
-.homePage {
+#homePage {
   color: black;
+  background-color: burlywood ;
 
-  .home-content {
-      .row {
-          .name {
-              background-color: #000 !important;
-              color: white  !important;
-          }
+  .homeContent {
+    
+    .name {
+      padding-left: 180px;
+      color: white ;
+    }
 
-          .logo {
-              width: 200px;
-              height: 200px;
-              border-radius: 50%;
-          }
-
-          .surname {
-              background-color: #000;
-              color: white;
+    
+      
+      img{
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
       }
+    }
+
+    
   }
-}}
+
+@media screen and (max-width: 768px) {
+  #homePage {
+    .homeContent {
+      .name {
+        padding-left: 5%;
+      }
+      img{
+        display: block;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-left:25%;
+      }
+    }
+  }
+}

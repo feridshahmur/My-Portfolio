@@ -12,13 +12,16 @@ const Header = () => {
             <img className={styles.logo}  src={logo} alt="" />
           
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Abilities</a></li>
-            <li><a href="#">Portfolio</a></li>
+            <li><a href="#homePage">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#abilities">Abilities</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
           </ul>
           <div>
-            <button className="btn btn-light">My Cv</button>
+          <a href="../../public/cv.pdf" download="cv.pdf" className="btn btn-light">
+              My CV
+            </a>
           </div>
         </div>
       </div>

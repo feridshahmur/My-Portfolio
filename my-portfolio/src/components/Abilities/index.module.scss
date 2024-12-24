@@ -1,0 +1,44 @@
+.abilities {
+    margin: 4rem 0;
+  
+    .cards {
+      .card {
+        opacity: 0;
+        transform: translateX(50px);
+        animation: slideIn 3s  forwards;
+        
+  
+        img {
+          width: 150px;
+          height: 150px;
+          display: block;
+          margin: 0 auto;
+          transition: all 0.5s;
+  
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+  
+        h5 {
+          font-weight: bold;
+          text-align: center;
+          color: brown;
+          padding-top: 1.5rem;
+        }
+      }
+    }
+  }
+  
+  /* Keyframes for sliding animation */
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translate(50px,50px);
+    }
+    to {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+  

@@ -31,3 +31,17 @@ header{
         
     
 }
+@media screen and (max-width: 768px) {
+    header{
+        padding: 5%;
+        .header{
+            height: 100px;
+            .logo{
+                width: 100px;
+            }
+            ul{
+                display: none;
+            }
+        }
+    }
+}
